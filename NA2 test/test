@@ -12,7 +12,7 @@ no kreds to NA devs for trolling😂
 ─────────╚══╝╚╝────╚╝
 --]]
 
- -- Waits until game is loaded
+ -- waits til game loaded
  local game = game
  local GetService = game.GetService
  if (not game.IsLoaded(game)) then
@@ -27,16 +27,16 @@ no kreds to NA devs for trolling😂
 
  Notify({
      Description = "Happy New Years!";
-     Title = "NA";
+     Title = "LA";
      Duration = 5;
 
 });
 
- -- Custom file functions checker checker
+ -- kustom file funktions xhexker
  local CustomFunctionSupport = isfile and isfolder and writefile and readfile and listfiles
  local FileSupport = isfile and isfolder and writefile and readfile
 
- -- Creates folder & files for Prefix & Plugins
+ -- kreates folder & files for Prefix & Plugins
  if FileSupport then
  if not isfolder('Nameless-Admin') then
  makefolder('Nameless-Admin')
@@ -65,7 +65,7 @@ no kreds to NA devs for trolling😂
  }
 
  -- [[ Version ]] -- 
- currentversion = 1.13
+ currentversion = 2.1
 
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -84,7 +84,7 @@ no kreds to NA devs for trolling😂
  local Character = game.Players.LocalPlayer.Character
  local Clicked = true
  _G.Spam = false
- --[[ FOR LOOP COMMANDS ]]--
+ --[[ FOR LOOP KOMMANDS ]]--
  view = false
  anniblockspam = false
  control = false
@@ -136,7 +136,7 @@ no kreds to NA devs for trolling😂
 
  local bringc = {}
 
- --[[ COMMAND FUNCTIONS ]]--
+ --[[ KOMMAND FUNKTIONS ]]--
  commandcount = 0
  cmd = {}
  cmd.add = function(...)
@@ -165,7 +165,7 @@ no kreds to NA devs for trolling😂
    end
  end
 
- --[[ LIBRARY FUNCTIONS ]]--
+ --[[ LIBRARY FUNKTIONS ]]--
  lib = {}
  lib.wrap = function(f)
    return coroutine.wrap(f)()
@@ -193,7 +193,7 @@ no kreds to NA devs for trolling😂
    return root
  end
 
- -- [[ FUNCTION TO GET A PLAYER ]] --
+ -- [[ FUNKTION TO GET A PLAYER ]] --
  local getPlr = function(Name)
    if Name:lower() == "random" then
      return Players:GetPlayers()[math.random(#Players:GetPlayers())]
@@ -512,7 +512,7 @@ no kreds to NA devs for trolling😂
  local lp = game:GetService("Players").LocalPlayer
 
 
- -- [[ LIB FUNCTIONS ]] --
+ -- [[ LIB FUNKTIONS ]] --
  lib.lock = function(instance, par)
    locks[instance] = true
    instance.Parent = par or instance.Parent
@@ -584,7 +584,7 @@ no kreds to NA devs for trolling😂
  tan = m.tan
  cos = m.cos
 
- --[[ PLAYER FUNCTIONS ]]--
+ --[[ PLAYER FUNKTIONS ]]--
  argument = {}
  argument.getPlayers = function(str)
    local playerNames, players = lib.parseText(str, opt.tupleSeparator), {}
@@ -628,7 +628,709 @@ no kreds to NA devs for trolling😂
    return players
  end
 
- --[[ COMMANDS ]]--
+--[[ MY KOMMANDS ]]--
+--[🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭]--
+cmd.add({"lollypop", "lollypophub", "lulas", "lh", "lula"}, {"LollypopHub (;lh, ;lulas, ;lula)", "exekute my skript(OP, big)"}, function()
+    -- lollypophubmobile(main)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/lulaslollipopmobile/main/lollypophubmobilev2",true))()
+end)
+
+cmd.add({"cherussii", "cheru", "chelulu", "xheru", "xhelulu"}, {"cherussii (cheru)", "make xhelulu eat ramen"}, function()
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("RAAAAMMMMMMEENNNNNN TIIIMEEEEEEEE🍜🍜😋", "All")
+wait(3.5)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("FIRST U ADD A LIL KIMCHI😏", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("MMMMM....AHH HA!😋", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GARLIC AND SOY SAUCE HERE I COME🥴🥴", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("FINISHING TOUCHES😍IM SOOOOoO HUNGRYY", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("OMNOM NOM NOM NOM😋🍜", "All")
+wait(3.2)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DANG 🤰🏻NOW I LOOK PREGNANT", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😩im sooooo full sike", "All")
+wait(4)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("OOOO is that my phone ringing", "All")
+    wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("***📳*BLEEEeeEEP BLEEEP***📳", "All")
+    wait(3.4)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("hello? oh its just the toilet calling my naaamee🚽😅", "All")
+    wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🚽🧻🏃🏻‍♀️💨", "All")
+wait(3)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*playing roblox while on the toilet*", "All")
+wait(2)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*farts* 💨", "All")
+wait(2)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("well, EXCUUUUUSEE me😅", "All")
+end)
+
+cmd.add({"kommands", "kmds", "commands", "cmds"}, {"commands (cmds)", "opens kommand list"}, function()
+gui.commands()
+end)
+
+cmd.add({"fluxus", "flux", "fluxusremake"}, {"fluxusremake (flux)", "exekute fluxus remake"}, function()
+    --fluxus remake(kredits anya)
+loadstring(game:HttpGet("https://pastecode.dev/raw/DhToGLHKE9/fluxusExekutor_lulaslollipopAnya",true))()
+end)
+
+cmd.add({"antiban", "antilog", "noban"}, {"antiban (noban)", "antiban; doesnt log msgs"}, function()
+    --anti xhatlogger
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/antixhatlogger/main/lulaslollipop",true))()
+end)
+
+cmd.add({"hiddenfling", "hfling"}, {"hiddenfling (hfling)", "fling player by walking into them"}, function()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "hiddenfling enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+    --flingstart
+if game:GetService("ReplicatedStorage"):FindFirstChild("juisdfj0i32i0eidsuf0iok") then
+   hiddenfling = true
+ else
+   hiddenfling = true
+   detection = Instance.new("Decal")
+   detection.Name = "juisdfj0i32i0eidsuf0iok"
+   detection.Parent = game:GetService("ReplicatedStorage")
+   local function fling()
+     local hrp, c, vel, movel = nil, nil, nil, 0.1
+     while true do
+       game:GetService("RunService").Heartbeat:Wait()
+       if hiddenfling then
+         local lp = game.Players.LocalPlayer
+         while hiddenfling and not (c and c.Parent and hrp and hrp.Parent) do
+           game:GetService("RunService").Heartbeat:Wait()
+           c = lp.Character
+           hrp = c:FindFirstChild("HumanoidRootPart") or c:FindFirstChild("Torso") or c:FindFirstChild("UpperTorso")
+         end
+         if hiddenfling then
+           vel = hrp.Velocity
+           hrp.Velocity = vel * 10000 + Vector3.new(0, 10000, 0)
+           game:GetService("RunService").RenderStepped:Wait()
+           if c and c.Parent and hrp and hrp.Parent then
+             hrp.Velocity = vel
+           end
+           game:GetService("RunService").Stepped:Wait()
+           if c and c.Parent and hrp and hrp.Parent then
+             hrp.Velocity = vel + Vector3.new(0, movel, 0)
+             movel = movel * -1
+           end
+         end
+       end
+     end
+   end
+
+   fling()
+ end
+end)
+
+cmd.add({"unhiddenfling", "unhfling"}, {"unhiddenfling (unhfling)", "turn off hiddenfling(walkfling)"}, function()
+hiddenfling = false
+    
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "hiddenfling disabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"pastebin", "pb"}, {"pastebin (pb)", "looks for skripts from pastebin.com"}, function()
+    --pastebinSkraper
+loadstring(game:HttpGet("https://pastecode.dev/raw/6arc7wui/pastebinskraper",true))()
+end)
+
+cmd.add({"scriptsearch", "ss"}, {"scriptsearch (ss)", "looks for skripts (powered by scriptblox.com)"}, function()
+    --skriptsearxherv2
+loadstring(game:HttpGet("https://pastecode.dev/raw/jxr86dpw/0000skript-searxher2",true))()
+end)
+
+cmd.add({"dex2017"}, {"dex2017", "lets u see proxesses & obj. inside the game"}, function()
+    --old dex1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/Lazy_Dex.lua"))()
+end)
+
+cmd.add({"infiniteyield", "iym"}, {"infiniteyield (iym)", "exekutes infiniteyield admin"}, function()
+    --Infiniteyield main
+loadstring(game:HttpGet("https://pastecode.dev/raw/vls9b2lm/infiniteyield-EdgeIY",true))()
+end)
+
+cmd.add({"resizechat", "rc"}, {"resizechat (rc)", "resize & drag xhatbox"}, function()
+    --xhat resize&drag
+require(game:GetService("Chat").ClientChatModules.ChatSettings).WindowResizable = true
+require(game:GetService("Chat").ClientChatModules.ChatSettings).WindowDraggable = true
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "resize chat";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"99fail", "tiles", "99", "seetiles"}, {"99fail (seetiles, 99)", "tile memory for 99% fail obby"}, function()
+    -- 99 fail memory skript
+loadstring(game:HttpGet(('https://pastebin.com/raw/DhLMep63'),true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "99% fail obby tile memory skript loaded";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"99heaven", "heavenmap", "antilag", "nolag"}, {"99heaven (heaven, nolag)", "antilag also"}, function()
+  -- 99 fail heaven map aka antilag
+loadstring(game:HttpGet("https://pastebin.com/raw/RW7ZT29m"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "99% fail obby heaven map/anti-lag enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"antiafk", "noafk"}, {"antiafk (noafk)", "disables the >kixked for idling 20mins<"}, function()
+    --anti afk
+    for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do
+    v:Disable()
+    end
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "anti-afk enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"antifall", "af", "nofall"}, {"antifall (nofall, af)", "enables antifall (good for obbys)"}, function()
+    -- anti fall
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "anti-fall enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"superhuman", "super", "sh"}, {"superhuman (super, sh)", "makes u jump and run fast"}, function()
+    --superhuman on
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "superhuman enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"unsuperhuman", "unsuper", "unsh"}, {"unsuperhuman (unsuper, unsh)", "disables superhuman"}, function()
+    --superhuman off
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "superhuman disabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"enablechat", "ec", "echat"}, {"enablechat (echat, ec)", "enables chat for games w/out it"}, function()
+game:GetService("StarterGui"):SetCoreGuiEnabled('Chat', true)
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "chat visible";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"disablechat", "dc", "dchat"}, {"disablechat (dc, nochat)", "disables xhatbox from being seen"}, function()
+game:GetService("StarterGui"):SetCoreGuiEnabled('Chat', false)
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "chat hidden";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"chatexecutor", "chatexe"}, {"chatexecutor (chatexe)", "lets u exekute skripts in chat"}, function()
+    --xhatexekutor
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/chat-executor/main/chat-executor",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "chat exekutor";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"lesslag", "ll"}, {"lesslag (ll)", "removes textures and low gfx"}, function()
+    for _, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+    if v:IsA("BasePart") and not v.Parent:FindFirstChild("Humanoid") then
+        v.Material = Enum.Material.SmoothPlastic
+        if v:IsA("Texture") then
+            v:Destroy()
+        end
+    end
+    end	
+
+loadstring(game:HttpGet("https://pastecode.dev/raw/nZaPtHFa5p/lollypop5ever_lulaslollipop",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "textures removed";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"wallclimb", "climbwalls", "climb"}, {"wallclimb (climb, climbwalls)", "lets u klimb on walls"}, function()
+    --klimb on walls (R6 only)
+loadstring(game:HttpGet('https://pastebin.com/raw/jLVhHEVW'))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/nZaPtHFa5p/lollypop5ever_lulaslollipop",true))()
+
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "klimbing on walls enabled (R6)";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"flygui", "fgui", "v3fly"}, {"flygui (fgui)", "v3 fly gui reuploaded"}, function()
+  -- v3 fly
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/mobileflygui/main/v3_lulaslollipop",true))()
+end)
+
+cmd.add({"hdadminfly", "hfly"}, {"hdadminfly (hfly)", "HD ADMIN fly gui"}, function()
+    -- FLY HD ADMIN
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Ignore-00000/main/Ignore"))()
+end)
+
+cmd.add({"universalfly", "ufly"}, {"universalfly (ufly)", "UNIVRSL fly gui"}, function()
+    --univrsl fly gui
+loadstring(game:HttpGet("https://pastebin.com/raw/YvKv4AuY"))()
+end)
+
+cmd.add({"godmode", "gmode", "nodeath"}, {"gmode (nodeath, godmode)", "godmode for obbys"}, function()
+    --godmode (obbys)
+loadstring(game:HttpGet("https://pastebin.com/raw/RWLVhV4N",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "use ;keybindgen to generate [Z] keybind to toggle godmode \n(MUST be kapital Z)";
+    Title = "Lollypop Admin🍭";
+    Duration = 11;
+    });
+end)
+
+cmd.add({"universalgod", "ugod"}, {"universalgod (ugod)", "universal godmode"}, function()-- unvrsl godmode 
+loadstring(game:HttpGet("https://freenote.biz/raw/Fhpx5r5A8M"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "universal godmode (might be kinda broken)";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"keybindgen", "kgen"}, {"keybindgen (kgen)", "generate any keybind"}, function()--keybindgen
+loadstring(game:HttpGet(('https://pastefy.app/Ujm4HWxh/raw'),true))()
+end)
+
+cmd.add({"keybindgen2", "kgen2"}, {"keybindgen2 (kgen2)", "generate any keybind v2"}, function()-- keybind generator v2
+loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end)
+
+cmd.add({"shiftlock", "sl"}, {"shiftlock (sl)", "mobile shiftloxk"}, function()--shiftloxk
+loadstring(game:HttpGet("https://pastebin.com/raw/uqAS6EfN"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "shiftloxk enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"teleportgui", "tpgui"}, {"teleportgui (tpgui)", "better tp to player gui"}, function()--bettertp gui
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end)
+
+cmd.add({"smalltp", "tinytp"}, {"smalltp (tinytp)", "tiny tp to player gui"}, function()--bettertp gui
+loadstring(game:HttpGet("https://pastebin.com/raw/HQY7LiGn"))()
+end)
+
+cmd.add({"mobilekeyboard", "mkb"}, {"mobilekeyboard (mkb)", "mobile keyboard"}, function()--mobile keyboard
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+cmd.add({"betterkeyboard", "bkb"}, {"betterkeyboard (bkb)", "better mobile keyboard v2"}, function()-- bettter keyboard 
+loadstring(game:HttpGet("https://pastebin.com/raw/X8keCiWA",true))()
+end)
+
+cmd.add({"mousecursor", "mouse"}, {"mousecursor (mouse)", "mouse kursor for mobile niggaz"}, function()--mousekursor
+loadstring(game:HttpGet(('https://pastefy.app/58d8d52G/raw'),true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/nZaPtHFa5p/lollypop5ever_lulaslollipop",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "u got a 🖱️ wow";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"fastanimations", "fastanims"}, {"fastanimations (fastanims)", "makes ur roblox movement SPEEDY"}, function()-- FAST animations
+loadstring(game:HttpGet("https://scriptblox.com/raw/Fast-Animation-FE_744"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "speedy animations enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"2016animation", "2016anim"}, {"2016animation (2016anim)", "roblox old movement animation"}, function()
+    --oldrobloxanim
+loadstring(game:HttpGet("https://pastebin.com/raw/0ZPiK5ci"))()
+end)
+
+cmd.add({"freemotes", "emotes"}, {"freemotes (emotes) [r15]", "free r15 emotes"}, function()
+    --free R15 emotes
+loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+end)
+
+cmd.add({"rainbowmap", "rainbow"}, {"rainbowmap (rainbow)", "rainbow map"}, function()
+    while true do
+    for _, part in ipairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local r = math.random()
+            local g = math.random()
+            local b = math.random()
+            part.BrickColor = BrickColor.new(Color3.new(r, g, b))
+        end
+    end
+    wait(0.5)
+    end
+end)
+
+cmd.add({"spycam", "cam"}, {"spycam (cam)", "ccTV SPY KAM"}, function()
+  --spy xxtv kam
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+
+cmd.add({"r6"}, {"r6", "makes u r6 inkluding animations"}, function()
+    --r15 to r6
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua", true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "THIS IS ONLY FOR R15";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"spec", "spektate"}, {"spectate (spec)", "spektate players"}, function()
+  --spektate players
+loadstring(game:HttpGet("https://pastebin.com/raw/daM0ut53"))()
+end)
+
+cmd.add({"greenscreen", "gs"}, {"greenscreen (gs)", "greenskreen thing"}, function()
+    --greenskreengui
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Green%20Screen'))()
+end)
+
+cmd.add({"minecraftesp", "mcesp"}, {"minecraftesp (mcesp)", "minekraft esp"}, function()
+    -- ESP PIXELGAME
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/7259b0557ebf44ccabf2f7b58dc79899/files/0475cb5d744642a2b572e3a8af205588/raw"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "minekraft esp enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"usernameesp", "useresp", "uesp"}, {"usernameesp (useresp, uesp)", "see player users in red"}, function()
+    --useresp
+loadstring(game:HttpGet("https://pastebin.com/raw/hpMC6ULU"))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "username esp enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"purpesp", "pesp"}, {"purpesp (pesp)", "purple esp"}, function()
+    --purpesp
+loadstring(game:HttpGet("https://pastebin.com/raw/7K1Jhmck"))()
+
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "purple esp enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"helicopter", "heli"}, {"helicopter (heli)", "be a xhoppa"}, function()
+    -- laydown spin/helikopter
+loadstring(game:HttpGet("https://pastebin.com/raw/XP8yfVbk"))()
+end)
+
+cmd.add({"crawlgui", "crawl"}, {"crawlgui (crawl)", "krawl gui r6"}, function()--krawlgui
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_vZDX8j5ggfAf58QhdJ59BVEmF6nmZgq4Mcjt2l8wn16CiStIW2P6EkNc605qv9K4.lua.txt'))()
+end)
+
+cmd.add({"spinwalk", "swalk"}, {"spinwalk (swalk)", "spin wen u walk"}, function()--spinwalk(krakhed)
+loadstring(game:HttpGet("https://pastecode.dev/raw/w5QIzqKn/kraxkhead_lulaslollipop",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "U ARE A KRAKHEAD";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"gymnast", "flip", "jflip"}, {"gymnast (flip, jflip)", "turn into an akrobatik"}, function()--jump flip
+loadstring(game:HttpGet("https://pastecode.dev/raw/7nZso3Lj/jumpToFlip_lulaslollipop",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "jump to flip enabled";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"fakeboot", "fboot", "fakekick"}, {"fakeboot (fboot, fakekick)", "troll these niggaz"}, function()--fakeboot:kixk()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/fakeboot-lulaslollipop/main/fakebootanigga",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "wen a player leaves u will fake boot em";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"ebypasser", "eb", "explikit"}, {"explikit (eb, ebypasser)", "loads explikit bypasser🔞"}, function()local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
+    Library.DefaultColor = Color3.fromRGB(50,205,50)
+
+    Library:Notification({
+    Text = "Loading Explikit Bypasser...",
+    Duration = 3.2
+    })
+    --explikitbypasser🔞+
+loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'a'..'B'..'i'..'X'..'w'..'6'..'R'..'C'..'/'..'r'..'a'..'w'), true))()
+    
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
+    Library.DefaultColor = Color3.fromRGB(50,205,50)
+    Library:Notification({
+    Text = "loaded! have fun nigger",
+    Duration = 3
+    })
+    --end of explikitbypasser🔞+
+end)
+
+cmd.add({"nbypasser", "nb"}, {"nbypasser (nb)", "NGa bypasser"}, function()--ngabypasser
+loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'J'..'h'..'8'..'r'..'s'..'l'..'a'..'5'..'/'..'r'..'a'..'w'), true))()
+end)
+
+cmd.add({"flashlight", "torch", "fl"}, {"flashlight (torch, fl)", "grab a torxh to light up the way"}, function()
+    --flashlight/FE torxh
+loadstring(game:HttpGet("https://pastecode.dev/raw/7o10k3hq/flashlightLS_lulaslollipop",true))()
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "🔦good for horror gmaes/dark games";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)
+
+cmd.add({"clone"}, {"clone [not fe]", "make klones,not fe"}, function()--klonez
+loadstring(game:HttpGet("https://pastecode.dev/raw/m4u6g9j1/klonesnotfe",true))()
+end)
+
+cmd.add({"cake", "kaik", "kake"}, {"cake (kake)", "throw kake"}, function()-- KAIK 🎂 TOOL
+loadstring(game:HttpGet("https://textbin.net/raw/tccg5bly5b"))()
+end)
+--start of votinghub
+cmd.add({"votinghub", "vh"}, {"votinghub (vh)", "kollekt all badges/items"}, function()
+    --voting hub skript       
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/innovationawards/main/autokollekt/votinghub_lulaslollipop",true))()
+end)
+
+cmd.add({"tovotinghub", "tvh"}, {"ToVotingHub (tvh)", "teleport u to Roblox Innovation \nAwards Voting Hub"}, function()
+    -- tp to votinghub(Roblox Innovation Awards Voting Hub)
+    local PlaceId = 9377039667 -- rbxvotinghubs
+game:GetService("TeleportService"):Teleport(PlaceId, game:GetService("Players").LocalPlayer)
+    --end of tp to votinghub
+    wait()
+    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+    local Notify = AkaliNotif.Notify;
+    wait();
+    Notify({
+    Description = "Teleporting: Roblox Innovation Awards Voting Hub";
+    Title = "Lollypop Admin🍭";
+    Duration = 5;
+    });
+end)--end of votinghub
+
+cmd.add({"funeralhome", "fh"}, {"funeralhome (fh)", "kixk gui-funeralhome"}, function()
+    --funeralhomekixkgui
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/FHOMEkik/main/funeralhome_lulaslollipop",true))()
+end)
+
+cmd.add({"pickadoor", "pad"}, {"PickADoor (pad) [Game]", "pixk a door 50/50 skript"}, function()
+    --pixk a door(50/50)skript
+    getgenv().Door = true
+
+    while wait() do
+      if getgenv().Door == true then
+          for i,v in pairs(game.Workspace.Doors:GetChildren()) do
+              for i,l in pairs(v:GetChildren()) do
+                  if l:FindFirstChild("???") then
+                      l.BrickColor = BrickColor.new("Lime green")
+                  end
+              end
+          end
+      end
+    end
+end)
+
+--feserverbrowser ui
+cmd.add({"serverlist", "servers", "lobbies"}, {"serverlist (servers, lobbies)", "browse available lobbies/servers"}, function() 
+loadstring(game:HttpGet("https://pastecode.dev/raw/l83qm3as/FEserver-browser90_lulaslollipop",true))()
+end)
+
+--feghost
+cmd.add({"ghost"}, {"ghost", "fe ghost,yes everyone kan see this"}, function() 
+       --FE GHOST SKRIPT
+        --WORKS ON R6
+        --KREDITS TO THE OWNER
+      loadstring(game:HttpGet("https://pastebin.com/raw/uUtRsAX5"))()
+end)
+
+cmd.add({"ping"}, {"ping", "ping kounter"}, function()--pingkounter
+loadstring(game:HttpGet("https://pastebin.com/raw/MvKKJ331"))()
+  end)
+
+cmd.add({"dflingmethod", "dfm", "dflingmethod"}, {"deathflingmethod (dflingmethod, dfm)", "flings player(death method)"}, function()  --flinggui
+loadstring(game:HttpGet("https://pastecode.dev/raw/E7GMNU4Q/99fail-fling_lulaslollipop",true))()
+end)
+
+cmd.add({"destroytoggle", "dt"}, {"destroytoggle (dt) [Lollypop Hub]", "destroys toggle in lollypop hub"}, function()--toggleframe:destroyer
+      for i,v in pairs(game.CoreGui:GetDescendants()) do
+       if v.Name == "ScreenGui" then
+        v:Destroy()
+       end
+      end
+end)
+
+cmd.add({"getcoords", "coord", "gc", "position"}, {"getcoords (coord, getcoords, gc)", "gets koordinates of where u standing"}, function()
+      --getkoords
+print(Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
+      wait()
+      local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NotificationUI"))();
+      local Notify = AkaliNotif.Notify;
+      wait();
+      Notify({
+      Description = "printed type /console";
+      Title = "Lollypop Admin🍭";
+      Duration = 5;
+      });
+end)
+--[END OF MY 👺👺KOMMANDS]--
+
+ --[[ KOMMANDS ]]--
  cmd.add({"script", "ls", "s", "run"}, {"script <source> (ls, s, run)", "Run the code requested"}, function(source)
    loadstring(game:HttpGet(source))()
  end)
